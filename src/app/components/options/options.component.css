@@ -1,0 +1,84 @@
+.Cont-Cards-ln1{
+  height: auto;
+  width: 100%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+}
+
+.Cont-Cards-ln2{
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+}
+
+.Cont-Cards-ln3{
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+  padding-bottom: 30px;
+}
+
+
+.Cards{
+  height: 200px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+#Card1{
+  width: 500px;
+  margin-right: 30px;
+  transition: .3s ease all;
+  background-color: #FFF2CA;
+  cursor:pointer;
+}
+
+#Card1:hover{
+  background-color: #FFF4D6;
+}
+
+#Card2{
+  width: 500px;
+  transition: .3s ease all;
+  background-color: #FFF2CA;
+  cursor:pointer;
+}
+
+#Card2:hover{
+  background-color: #FFF4D6;
+}
+
+#Card3{
+  width: 500px;
+  margin-left: 30px;
+  transition: .3s ease all;
+  background-color: #FFF2CA;
+  cursor:pointer;
+}
+
+#Card3:hover{
+  background-color: #FFF4D6;
+}
+
+#Text_Pregunta{
+  width: 30%;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 20%;
+}

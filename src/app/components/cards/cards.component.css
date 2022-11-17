@@ -1,0 +1,59 @@
+.Cont-Cards{
+  height: auto;
+  width: 100%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  background-color: #FFF2CA;
+}
+
+.Cards{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+
+#Card1{
+  margin-right: 30px;
+  border-bottom: 10px #FEC500 solid;
+  transition: .3s ease all;
+  background-color: whitesmoke;
+  cursor:pointer;
+}
+
+#Card1:hover{
+  transform: scale(1.04);
+}
+
+#Card2{
+  border-bottom: 10px #C91418 solid;
+  transition: .3s ease all;
+  background-color: whitesmoke;
+  cursor:pointer;
+}
+
+#Card2:hover{
+  transform: scale(1.04);
+}
+
+#Card3{
+  margin-left: 30px;
+  border-bottom: 10px #6B9F2D solid;
+  transition: .3s ease all;
+  background-color: whitesmoke;
+  cursor:pointer;
+}
+
+#Card3:hover{
+  transform: scale(1.04);
+}
+
+
+

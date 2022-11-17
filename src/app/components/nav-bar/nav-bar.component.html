@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg" id="NavBar">
+
+  <div class="container-fluid">
+    <!-- LOGO DEL PROYECTO (CAMBIAR POR EL NUEVO "ESPERANDO AL CLIENTE")-->
+    <a class="navbar-brand" href="#">
+      <img src="../../../assets/img/Fotos/logo2.png" alt="" width="60px">
+    </a>
+
+        <!-- Responsive (acomodar en base a tambien los botones de las redes)-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav nav-pills">
+        <!-- Botones para navegar en la misma pagina: (tengo que aprender a fijar la navbar)-->
+        <li class="nav-item">
+          <button type="button" class="btn btn-light" [routerLink]="'/home'">Home</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light" [routerLink]="'/historia'">Historia</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light" [routerLink]="'/fiesta'">3ra Fiesta</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Botones de red social ( colocar links y acomodar )-->
+      <ul class="nav justify-content-end">
+        <div class="btn-group">
+
+          <a href="#Form">
+            <button button type="button" class="btn btn-light" href="/home" target="_blank">
+              <i class="bi bi-envelope-fill"></i>
+            </button>
+          </a>
+
+          <i class="vr d-none d-lg-flex h-100 mx-lg-2 text-black"></i>
+
+          <a href="https://www.instagram.com/fpdelponchosantafesino/reels/" target="_blank">
+            <button type="button" class="btn btn-light" >
+              <i class="bi bi-instagram"></i>
+            </button>
+          </a>
+
+          <a href="https://www.facebook.com/fiestasantafesinadel.poncho" target="_blank">
+            <button type="button" class="btn btn-light">
+              <i class="bi bi-facebook"></i>
+            </button>
+          </a>
+        </div>
+      </ul>
+
+  </div>
+
+</nav>

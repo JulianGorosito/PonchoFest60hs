@@ -1,0 +1,23 @@
+#NavBar{
+  border-bottom: 5px red solid;
+  /* background-color: #FFF2CA; */
+  background-color: #E0CB96;
+}
+
+.btn{
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  transition: .3s ease all;
+}
+
+.btn:hover{
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  color: red;
+  transition: .3s ease all;
+}
+
+.bi{
+  color:#8B7062;
+}

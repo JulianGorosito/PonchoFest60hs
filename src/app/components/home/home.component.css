@@ -1,0 +1,120 @@
+#CarouselCont{
+  background-color: #FFF2CA;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+#btn_preguntas{
+  margin-right: 5px;
+}
+
+#carouselExampleCaptions{
+  height: auto;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: #FFF2CA;
+}
+
+.Cont-text1{
+  height: auto;
+  width: 500px;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-bottom: 10px #087EC6 solid;
+}
+
+.Cont-text2{
+  height: auto;
+  width: 500px;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-bottom: 10px #339933 solid;
+}
+
+.Cont-text3{
+  height: auto;
+  width: 500px;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-bottom: 10px #FDFE62 solid;
+}
+
+#button1{
+  width: 100px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  transition: .3s ease all;
+}
+
+#button1:hover{
+  transform: scale(1.04);
+}
+
+#tituloImg{
+  padding-top: 10px;
+  color: black;
+}
+
+#infoImg{
+  color: black;
+}
+
+.ContainerFondoForm{
+  background-color: #FFF2CA;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container-form{
+  background-color: whitesmoke;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: 1px gray solid;
+}
+
+#foto_carousel{
+  border-radius: 30px;
+}
+
+#prevContol{
+  color: white;
+  height: 10%;
+  width: 4%;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+#nextContol{
+  color: white;
+  height: 10%;
+  width: 4%;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+#btnSlider{
+  color: white;
+  background-color: white;
+}
+
+#carousel_slider{
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(0, 0, 0, 0.2);
+}
